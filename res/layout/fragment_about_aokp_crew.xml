@@ -9,6 +9,16 @@
             android:id="@+id/crew"
             style="@style/settingsFragmentStyle">
 
+		<com.aokp.romcontrol.widgets.DeveloperPreference
+                android:title="ESPMartin"
+                aokp:nameDev="espmartin"
+                aokp:twitterHandle="gsbmartin"
+                aokp:githubLink="@string/github_espmartin"
+                aokp:emailDev="espmartin@gmail.com"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
         <com.aokp.romcontrol.widgets.DeveloperPreference
                 android:title="Roman"
                 aokp:nameDev="romanbb"
