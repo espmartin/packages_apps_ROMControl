@@ -65,7 +65,7 @@ public class HardwareKeysFragment extends Fragment {
         /**
          * Hide customize hardware buttons checkbox
          */
-        if (hardwareKeyMask == 0) {
+        if (hardwareKeyMask == 1) {
             setting_customize = (CheckboxSetting) v.findViewById(R.id.setting_customize_hardware_keys);
             setting_customize.setVisibility(View.GONE);
         }
